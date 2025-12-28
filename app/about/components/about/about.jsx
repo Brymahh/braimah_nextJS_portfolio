@@ -108,10 +108,10 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Godsgift Eseoghena Braimah
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hello and Welcome🤍! You can call me Braimah. 
 						<span className="text-black font-medium">
 							{" "}
 							passionate Web Developer
@@ -122,13 +122,13 @@ export default function About() {
 							Artificial Intelligence.
 						</span>{" "}
 						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-						pursuing my degree in{" "}
+						pursuing my{" "}
 						<span className="text-black font-medium">
-							Computer Science
+							Master's degree in Data Science
 						</span>{" "}
-						at{" "}
+						at the{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang.
+							University of British Columbia.
 						</span>{" "}
 						My work bridges modern web technologies and intelligent systems—from
 						building responsive, scalable websites to exploring generative AI
