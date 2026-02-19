@@ -58,7 +58,7 @@ export default function Page() {
 							A brief introduction about me and{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								my interest.
+								my interests.
 							</span>
 						</p>
 						<motion.div

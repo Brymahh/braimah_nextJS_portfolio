@@ -1,5 +1,5 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// Copyright (C) 2026 Godsgift Braimah
+// This file is part of Godsgift-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -11,7 +11,7 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/me.jpg";
+import Me from "@/public/image/me.jpeg";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
@@ -21,7 +21,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+//import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const MyPage = () => {
@@ -36,7 +36,7 @@ const MyPage = () => {
 	return (
 		<div>
 			<ReactFullpage
-				render={({ state, fullpageApi }) => (
+				render={() => (
 					<ReactFullpage.Wrapper>
 						<div className="section">
 							<div className="mx-auto container grid grid-cols-1 md:grid-cols-3 gap-4 p-10 overflow-hidden md:px-20">
@@ -54,7 +54,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Godsgift Braimah"
 												placeholder="blur"
 											/>
 										</div>
@@ -67,7 +67,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										Godsgift Eseoghena Braimah
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -77,7 +77,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										Data Scientist & AI Educator
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -87,11 +87,12 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Alvalen, A junior fullstack developer specializing in
-										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
-										user-friendly web applications and exploring AI technologies
-										such as generative models and LLM integration.
+										Hi! I&rsquo;m Godsgift, with 3+ years of combined experience in Data Analytics 
+										and Data Science. I'm passionate about how code, dashboards, predictive and 
+										analytical insights translate into real world decisions that shape our 
+										everyday lives and even business outcomes. I am interested in the intersection of
+										AI technologies and our human existence, especially building systems that are both 
+										intelligent and impactful.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -103,7 +104,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href={"/docs/cv.pdf"}
+												href={"/docs/GODSGIFT_BRAIMAH_CV.pdf"}
 												target="_blank"
 												rel="noopener noreferrer"
 												download>
@@ -129,7 +130,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Godsgift Braimah"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -161,7 +162,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="Godsgift Braimah"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -186,7 +187,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										A brief introduction about me and my interest.
+										I promise "I'm a nice person, passionate about AI too."
 									</motion.p>
 									<motion.div
 										initial={{ y: 40, opacity: 0 }}
@@ -196,7 +197,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											<Link href="/about">Learn More</Link>
+											<Link href="/about">Learn More About Me</Link>
 										</Button>
 									</motion.div>
 								</div>
@@ -227,7 +228,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Godsgift Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -252,10 +253,10 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										This is some of my projects that I have done{" "}
+										I'm exploring more projects, kindly find my previous <br />
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 											{" "}
-											and currently working on.
+											& current works here.
 										</span>
 									</motion.p>
 									<motion.div
@@ -297,7 +298,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Godsgift Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -311,7 +312,7 @@ const MyPage = () => {
 											delay: 0.1,
 											type: "spring",
 										}}>
-										Get In Touch
+										Reach Me🙋🏽‍♀️
 									</motion.h1>
 									<Hr />
 									<motion.p
@@ -322,9 +323,9 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Feel free to contact me if you have any{" "}
+										We could connect! I'm always excited to{" "}
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-											questions or just want to say hi.
+											meet new people.
 										</span>
 									</motion.p>
 									<motion.p
@@ -335,14 +336,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:eseoghenabraimah@gmail.com?subject=Hello&body=Hello Godsgift,">
+											eseoghenabraimah@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:eseoghenabraimah@gmail.com?subject=Hello&body=Hello Godsgift,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -354,7 +355,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/Alvalens"
+											href="https://github.com/Brymahh"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -367,7 +368,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/brymah_e/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -383,7 +384,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
+											href="https://www.linkedin.com/in/eseoghena-braimah/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -394,19 +395,6 @@ const MyPage = () => {
 												opacity: { delay: 0.5 },
 											}}>
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
-										</motion.a>
-										<motion.a
-											href="https://discordapp.com/users/bloody#6118"
-											target="_blank"
-											rel="noopener noreferrer"
-											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
-											initial={{ opacity: 0, y: 40 }}
-											whileInView={{ opacity: 1, y: 0 }}
-											transition={{
-												y: { delay: 0.5 },
-												opacity: { delay: 0.6 },
-											}}>
-											<FontAwesomeIcon icon={faDiscord} className="text-3xl" />
 										</motion.a>
 									</div>
 								</div>
