@@ -1,10 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-//import { CodepenIcon, WebhookIcon, ActivityIcon, MobileIcon } from "./icons"
 import { ModelingIcon, NeuralIcon, AnalyticsIcon, MLOpsIcon } from "./icons"
-//web api ai mobile
-
 
 const skillCategories = {
 	modelling: {
