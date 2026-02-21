@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="Godsgift"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="Godsgift"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -83,7 +83,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="Alvalens"
+									alt="Godsgift"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -111,33 +111,57 @@ export default function About() {
 						Godsgift Eseoghena Braimah
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hello and Welcome🤍! You can call me Braimah. 
+						<span className="text-black font-medium"> Hello and Welcome!</span> <br/> 
+						You can call me Gods+gift. I am a
 						<span className="text-black font-medium">
 							{" "}
-							passionate Web Developer
+							Data Scientist 
 						</span>{" "}
-						with a growing expertise in
+						with growing expertise in
 						<span className="text-black font-medium">
 							{" "}
-							Artificial Intelligence.
+							Artificial Intelligence,
 						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-						pursuing my{" "}
+						currently pursuing my{" "}
 						<span className="text-black font-medium">
 							Master's degree in Data Science
 						</span>{" "}
 						at the{" "}
 						<span className="text-black font-medium">
-							University of British Columbia.
+							University of British Columbia, Canada.
 						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+						Over the past three years, I’ve worked across 
+						<span className="text-black font-medium"> consulting, 
+						healthcare, educational technology, 
+						research, and geospatial </span>  
+						integration, contributing to building data-driven solutions that 
+						translates into measurable outcomes and real-world impact. 
+						My experience spans <span className="text-black font-medium"> 
+						model development, analytics strategy, AI integration, and 
+						stakeholder-focused implementation.</span> <br />
+						I’ve also facilitated data science and AI trainings, workshops, 
+						and masterclasses for over 1,000 educators and learners across Africa, 
+						Canada, and Europe. <br/>
+						My work is grounded in the <span className="text-black font-medium"> safe, 
+						responsible, and ethical</span> applications  of AI. This focus also 
+						shapes my role as the 
+						<span className="text-black font-medium">
+						founder of {" "} 
+						<a 
+						href="https://aiforkidsafrica.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="underline hover:text-blue-600 transition"
+						>
+						AI for Kids
+						</a>
+						</span>, where I help young learners develop practical and thoughtful 
+						foundations in emerging technologies. <br />
+						I’m driven by  <span className="text-black font-medium">complex problems 
+						that translate into meaningful results </span> for the people and organizations I serve.<br />
+						<em>
+						Outside of work,I enjoy dancing, Afro and Hip-Hop specifically.
+						</em>
 					</p>
 					<Card />
 				</motion.div>

@@ -77,7 +77,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Data Scientist & AI Educator
+										Data Scientist
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -323,7 +323,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										We could connect! I'm always excited to{" "}
+										We should connect! I'm always excited to{" "}
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 											meet new people.
 										</span>

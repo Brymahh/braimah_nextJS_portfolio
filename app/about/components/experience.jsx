@@ -7,7 +7,7 @@ const experiences = [
 	{
 		id: 1,
 		startDate: "Sep 2023",
-		endDate: "Jan 2024",
+		endDate: "Jan 2026",
 		company: "Universitas Negeri Malang",
 		position: "Assistant Lecturer",
 		type: "Seasonal",

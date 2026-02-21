@@ -28,8 +28,8 @@ function Wrapper({ children }) {
 }
 
 export default function Quote() {
-	const text1 = '"There are no limits to what you can accomplish'.split(" ");
-	const text2 = 'except the limits you place on your own thinking."'.split(
+	const text1 = '"It is Possible"'.split(" ");
+	const text2 = 'To do great things from a small place'.split(
 		" "
 	);
 	const [ref, isIntersecting] = useIntersectionObserver();

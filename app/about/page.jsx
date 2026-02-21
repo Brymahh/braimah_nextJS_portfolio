@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={Hero}
-								alt="Alvalen Shafel"
+								alt="Godsgift Braimah"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -55,10 +55,10 @@ export default function Page() {
 						</h1>
 						<Hr />
 						<p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">
-							A brief introduction about me and{" "}
+							A brief introduction about me and <br />
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								my interests.
+								the things that inspire me.
 							</span>
 						</p>
 						<motion.div
