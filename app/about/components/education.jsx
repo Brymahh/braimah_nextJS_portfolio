@@ -364,21 +364,3 @@ export default function Education() {
 		</Wrapper>
 	);
 }
-
-
-		// 2024: [
-		// 	{
-		// 		icon: faTrophy,
-		// 		title: "Special Award | Gold Medal | Incubation Opportunity",
-		// 		subtitle: "Indonesia Inventor Day 2024 (IID)",
-		// 		date: "Aug 2024",
-		// 		color: "from-yellow-400 to-orange-500",
-		// 	},
-		// 	{
-		// 		icon: faMedal,
-		// 		title: "1st place (Gold Medal)",
-		// 		subtitle: "Tech & Trade Expo 2024",
-		// 		date: "Jul 2024",
-		// 		color: "from-yellow-400 to-orange-500",
-		// 	},
-		// ],
