@@ -46,7 +46,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Godsgift"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -58,13 +58,6 @@ export default function Page() {
 							My Projects
 						</h1>
 						<Hr />
-						<p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-							List of my projects that I have done and{" "}
-							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-								{" "}
-								currently working on.
-							</span>
-						</p>
 						<motion.div
 							initial={{ opacity: 0, y: 100 }}
 							animate={{ opacity: 1, y: 0 }}
@@ -100,7 +93,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={Intervyou1}
-										alt="Alvalens"
+										alt="Godsgift"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -124,7 +117,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg ">
 									<Image
 										src={Intervyou3}
-										alt="Alvalens"
+										alt="Godsgift"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -150,7 +143,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={Intervyou2}
-										alt="Alvalens"
+										alt="Godsgift"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -261,20 +254,6 @@ export default function Page() {
 						/>
 					))}
 				</div>
-
-				{/* view in archive btn */}
-				<motion.div
-					initial={{
-						opacity: 0,
-					}}
-					whileInView={{
-						opacity: 1,
-					}}
-					className="flex justify-center items-center flex-col my-5 self-start ">
-					<Button variation="primary">
-						<Link href="projects/archive">View In Archive</Link>
-					</Button>
-				</motion.div>
 			</main>
 		</>
 	);
