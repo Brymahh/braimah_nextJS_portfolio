@@ -38,7 +38,7 @@ export default function Footer() {
 						transition={{
 							delay: 0.5,
 						}}>
-						You can Contact Me{" "}
+						You should Contact Me{" "}
 						<FontAwesomeIcon
 							icon={faArrowAltCircleRight}
 							className="text-5xl ml-2 "

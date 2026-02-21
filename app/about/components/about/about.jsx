@@ -112,7 +112,7 @@ export default function About() {
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
 						<span className="text-black font-medium"> Hello and Welcome!</span> 
-						You can call me Gods+gift. <br/> I am a
+						{" "} You can call me Gods+gift. <br/> I am a
 						<span className="text-black font-medium">
 							{" "}
 							Data Scientist 

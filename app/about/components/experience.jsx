@@ -157,7 +157,7 @@ function Title() {
 						delay: 0.7,
 						type: "spring",
 					}}>
-					Profesional Experience
+					Work Experience
 				</motion.h1>
 			</div>
 		</div>

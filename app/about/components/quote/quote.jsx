@@ -28,8 +28,8 @@ function Wrapper({ children }) {
 }
 
 export default function Quote() {
-	const text1 = '"It is Possible"'.split(" ");
-	const text2 = 'To do great things from a small place'.split(
+	const text1 = '"I want you know that; It is Possible,"'.split(" ");
+	const text2 = 'to do great things from a small place!'.split(
 		" "
 	);
 	const [ref, isIntersecting] = useIntersectionObserver();
