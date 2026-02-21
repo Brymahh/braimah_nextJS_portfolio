@@ -111,8 +111,8 @@ export default function About() {
 						Godsgift Eseoghena Braimah
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						<span className="text-black font-medium"> Hello and Welcome!</span> <br/> 
-						You can call me Gods+gift. I am a
+						<span className="text-black font-medium"> Hello and Welcome!</span> 
+						You can call me Gods+gift. <br/> I am a
 						<span className="text-black font-medium">
 							{" "}
 							Data Scientist 
@@ -144,7 +144,7 @@ export default function About() {
 						Canada, and Europe. <br/>
 						My work is grounded in the <span className="text-black font-medium"> safe, 
 						responsible, and ethical</span> applications  of AI. This focus also 
-						shapes my role as the 
+						shapes my role as the {" "} 
 						<span className="text-black font-medium">
 						founder of {" "} 
 						<a 
@@ -160,7 +160,7 @@ export default function About() {
 						I’m driven by  <span className="text-black font-medium">complex problems 
 						that translate into meaningful results </span> for the people and organizations I serve.<br />
 						<em>
-						Outside of work,I enjoy dancing, Afro and Hip-Hop specifically.
+						Outside of work, I enjoy dancing, (Afro and Hip-Hop specifically😁).
 						</em>
 					</p>
 					<Card />

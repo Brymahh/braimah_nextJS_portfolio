@@ -1,91 +1,91 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { CodepenIcon, WebhookIcon, ActivityIcon, MobileIcon } from "./icons"
+//import { CodepenIcon, WebhookIcon, ActivityIcon, MobileIcon } from "./icons"
+import { ModelingIcon, NeuralIcon, AnalyticsIcon, MLOpsIcon } from "./icons"
+//web api ai mobile
+
 
 const skillCategories = {
-	web: {
-		title: "Web Development",
-		icon: CodepenIcon,
-		description: "Building modern, responsive web applications",
-		languages: [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"TypeScript",
-			"PHP",
-			"Python",
-			"React",
-			"NextJS",
-			"TailwindCSS",
-			"Bootstrap",
-			"NodeJS",
-			"ExpressJS",
-			"Laravel",
-			"Flask",
-			"Django",
-			"Firebase"
-		],
-		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Vite", "Docker", "Kubernetes", "Google Cloud", "Postman"],
-	},
-	api: {
-		title: "REST API",
-		icon: WebhookIcon,
-		description: "Creating robust and scalable backend services",
-		languages: [
-			"NodeJS",
-			"ExpressJS",
-			"PHP",
-			"Laravel",
-			"Python",
-			"FastAPI",
-			"Flask",
-			"Django",
-			"MySQL",
-			"PostgreSQL",
-			"MongoDB",
-			"Firebase",
-		],
-		tools: ["Postman", "Docker", "Kubernetes", "Swagger", "Git", "Github", "Google Cloud", "IBM Cloud"],
-	},
-	ai: {
-		title: "AI & Machine Learning",
-		icon: ActivityIcon,
-		description: "Developing intelligent solutions with ML/AI",
+	modelling: {
+		title: "Statistical Modeling & Machine Learning",
+		icon: ModelingIcon,
+		description: "From hypothesis testing to predictive modeling and model evaluation",
 		languages: [
 			"Python",
-			"TensorFlow",
-			"PyTorch",
+			"R",
+			"SQL",
 			"Scikit-learn",
+			"Statsmodels",
 			"Pandas",
 			"NumPy",
-			"Jupyter",
-			"OpenAI API",
-			"Gemini API",
+			"XGBoost",
+			"LightGBM",
+			"Feature Engineering",
+			"Model Evaluation",
+			"Hypothesis Testing"
+		],
+		tools: [ "Jupyter Notebook","Visual Studio Code", 
+				"Google Colab", "PostgreSQL", "MySQL", "MongoDB", "SQLite",
+				"Microsoft Excel", "RStudio", "Git", "Github", "Docker"],
+	},
+	deep: {
+		title: "Deep Learning, NLP & Generative AI",
+		icon: NeuralIcon,
+		description: "Neural networks, transformers, and intelligent AI systems",
+		languages: [
+			"PyTorch",
+			"Transformers (HuggingFace)",
+			"spaCy",
+			"CNNs",
+			"RNNs",
+			"Attention Mechanisms",
+			"LLMs",
+			"Prompt Engineering",
 			"LangChain",
+			"Retrieval-Augmented Generation (RAG)"
+		],
+		tools: ["HuggingFace", "Weights & Biases", "Groq"],
+	},
+	analytics: {
+		title: "Data Analytics & Insight Communication",
+		icon: AnalyticsIcon,
+		description: "Exploratory data analysis, visualization, and data storytelling",
+		languages: [
+			"Python",
+			"R",
+			"SQL",
+			"ggplot2",
+			"Matplotlib",
+			"Seaborn",
+			"Plotly",
+			"Altair",
+			"Shiny",
+			"EDA"
 		],
 		tools: [
 			"Jupyter Notebook",
-			"Google Colab",
-			"Google Cloud AI",
-			"AWS SageMaker",
-			"IBM Watson",
+			"Tableau",
+			"Power BI",
+			"Microsoft Excel",
+			"RStudio",
+			"Canva for Data Storytelling",
 		],
 	},
-	mobile: {
-		title: "Mobile Development",
-		icon: MobileIcon,
+// Fast AI 
+	systems: {
+		title: "Vesion Control & Deployment",
+		icon: MLOpsIcon,
 		description: "Cross-platform mobile app development",
 		languages: [
-			"React Native",
-			"JavaScript",
-			"TypeScript",
-			"Dart",
-			"Flutter",
+			"Flask",
+			"Git",
+			"Docker",
 		],
 		tools: [
-			"Android Studio",
-			"React Native CLI",
+			"Github Actions",
+			"Streamlit",
+			"Heroku",
 		],
 	},
 };
@@ -217,7 +217,7 @@ export default function Skills() {
 						Skills & Expertise
 					</h2>
 					<p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
-						Explore my technical skills across different domains. Click on any
+						From statistical modeling and machine learning to deep learning systems and deployment. Click on any
 						category to see the specific technologies and tools I work with.
 					</p>
 				</motion.div>
